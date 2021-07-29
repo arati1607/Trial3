@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+        <meta name="author" content="DynamicLayers">
+            
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="LoginMain.css" type="text/css"/>
+
+        <script src="LoginMain.js"></script>
+
+        <title>Login Page</title>
+    </head>
+    <body>
+        
+        <div class="page-header">
+            <h1>Log in</h1>
+         </div>
+ 
+         <form class="form1" action="" >
+             <label for="input-user" class="form__label">Username</label>
+             <input type="user" id="input-user" class="form__input" placeholder='username'/>
+           
+             <label for="input-password" class="form__label">Password</label>
+             <input type="password" id="input-password" class="form__input" placeholder='enter your password'/>
+ 
+              <button class="button"  type="button" value="Login" onclick="login()">Login</button>
+         </form>
+ 
+         <div class="check-content">
+           <p>Don't have an account ? <span><a href="registration.php"> Register here.</a></span></p>
+         </div>
+         
+    </body>    
